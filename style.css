@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.twentythree {
+   background-color: blue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: brown solid underline;
+   color: yellow;
+   height: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.one {
+    background-color: red;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+} 
+
+.two {
+    font-weight: 600;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.three {
+    margin-left: 30px;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+.five {
+    height: 450px;
+    width: 550px;
+    text-align: left;
+}
+
+.six {
+    margin-top: 10px;
+    font-size: 80px;
+}
+
+.seven {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.eight {
+    margin-top: 30px;
+    height: 50px;
+    width: 180px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+.nine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+}
+
+.ten {
+    height: 250px;
+    width: 550px;
+    text-align: left;
+}
+
+.fifteen {
+    margin-top: 15px;
+}
+
+.eleven {
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 1.8;
+}
+
+.thirteen {
+    height: 150px;
+    width: 150px;
+}
+
+.fourteen {
+    position: relative;
+    top: -90px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.twelve {
+    position: relative;
+    top: -70px;
+    left: 150px;
+    font-size: 14px;
+}
+
+.sixteen {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 400px;
+}
+
+.seventeen {
+    height: 350px;
+    width: 550px;
+    text-align: left;
+}
+
+.eighteen {
+    background-color: red;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.twentyone {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nineteen {
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.twenty {
+    margin-top: 15px;
+    margin-left: 45px;
+}
+
+.twentytwo {
+    height: 300px;
+    width: 300px;
+    margin-top: -40px;
+}
+
+@media (max-width: 1020px) {
+  .two {
+    font-size: 18px;
+  }
+
+  .three {
+    margin-left: 15px;
+  }
+
+  .four {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .five {
+    width: 90%;
+    height: auto;
+    text-align: center;
+  }
+
+  .six {
+    font-size: 60px;
+  }
+
+  .seven {
+    font-size: 26px;
+  }
+
+  .eight {
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .nine {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .ten {
+    width: 90%;
+    height: auto;
+    text-align: center;
+  }
+
+  .sixteen {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .seventeen {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .thirteen {
+    height: 130px;
+    width: 130px;
+  }
+
+  .twentytwo {
+    height: 250px;
+    width: 250px;
+  }
+
+  .fourteen {
+    position: relative;
+    top: -77px;
+    left: 0;
+  }
+
+  .twelve {
+    position: relative;
+    top: -60px;
+    left: 60px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    padding: 20px;
+  }
+
+  .one {
+    font-size: 14px;
+    padding: 4px 6px;
+  }
+
+  .two {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .three {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .four {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+  }
+
+  .five {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .six {
+    font-size: 42px;
+  }
+
+  .seven {
+    font-size: 20px;
+  }
+
+  .eight {
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+  }
+
+  .nine {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+  }
+
+  .ten {
+    width: 100%;
+    text-align: center;
+  }
+
+  .thirteen {
+    height: 100px;
+    width: 100px;
+  }
+
+  .fourteen {
+    position: relative;
+    top: -60px;
+    left: 0;
+  }
+
+  .twelve {
+    position: relative;
+    top: -50px;
+    left: 45px;
+  }
+
+  .sixteen {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .seventeen {
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .eighteen {
+    font-size: 14px;
+    padding: 4px 6px;
+  }
+
+  .nineteen,
+  .twentyone {
+    font-size: 16px;
+  }
+
+  .twentytwo {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 10px;
+    height: 150px;
+  }
+
+  .one {
+    font-size: 13px;
+  }
+
+  .two {
+    font-size: 15px;
+  }
+
+  .three {
+    display: block;
+  }
+
+  .six {
+    font-size: 32px;
+  }
+
+  .seven {
+    font-size: 18px;
+  }
+
+  .eight {
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .five,
+  .ten {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .thirteen {
+    height: 80px;
+    width: 80px;
+  }
+
+  .fourteen {
+    position: relative;
+    top: -45px;
+    left: 0;
+  }
+
+  .seventeen {
+  padding-top: 40px;
+  }
+
+  .twelve {
+    position: relative;
+    top: -35px;
+    left: 35px;
+  }
+
+  .nineteen,
+  .twentyone {
+    font-size: 15px;
+  }
+
+  .twentytwo {
+    height: 170px;
+    width: 170px;
+  }
+}
