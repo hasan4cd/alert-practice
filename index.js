@@ -18,7 +18,7 @@ alert("Happy Coding!\nPrevent this page from creating additional dialogs");
 
 // Question NO 5
 
-alert("Hello... I can run JS through my web browser's console");
+console.log("Hello... I can run JS through my web browser's console");
 
 // Question NO 6
 
